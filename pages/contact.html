@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+    />
+    <script
+            src="https://kit.fontawesome.com/b4467642a5.js"
+            crossorigin="anonymous"
+    ></script>
+    <title>Contact</title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <nav>
+        <img class="logo"
+             src="../images/logo.png"
+             alt="Dang Dang logo" />
+
+        <ul class="nav-bar" id="nav-list">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="http://github.com/dvqdang">Github</a></li>
+        </ul>
+
+        <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+
+    </nav>
+
+    <section>
+        <form action="">
+            <h2>CONTACT ME</h2>
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="first-name">First name:</label>
+                    <input type="text" id="first-name" name="first-name" value="John"></input>
+                </div>
+                <div class="input-group">
+                    <label for="last-name">Last name:</label>
+                    <input type="text" id="last-name" name="last-name" value="Doe"></input></div>
+            </div>
+
+            <div class="input-section">
+                <input type="radio" id="office" name="office" value="office"></input>
+                <label for="office">Office</label>
+                <input type="radio" id="remote" name="remote" value="remote"></input>
+                <label for="office">Remote</label>
+                <input type="radio" id="other" name="other" value="other"></input>
+                <label for="office">Other</label>
+            </div>
+
+            <div class="input-section">
+                <input type="checkbox" id="contract" name="contract" value="contract"></input>
+                <label for="contract">Contract Work</label>
+                <input type="checkbox" id="full-time" name="full-time" value="full-time"></input>
+                <label for="full-time">Full Time</label>
+                <input type="checkbox" id="sponsorship" name="sponsorship" value="sponsorship"></input>
+                <label for="sponsorship">Sponsorship</label>
+            </div>
+            <input class="button" type="submit" value="submit"></input>
+        </form>
+    </section>
+
+    <script src="../src/index.js"></script>
+</body>
+</html>
